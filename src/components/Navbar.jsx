@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="bg-custom-primary backdrop-filter backdrop-blur-lg bg-opacity-20 pb-3 pt-2 px-3 flex justify-between items-center text-custom-text">
+      <div className="bg-transparent w-full fixed backdrop-filter backdrop-blur-lg bg-opacity-20 pb-3 pt-2 px-3 flex justify-between items-center text-white">
         <a href="/" className="hover:cursor-pointer">
           <Image className="h-12 w-36" src={Logo} alt="Logo" />
         </a>

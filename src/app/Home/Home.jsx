@@ -8,7 +8,7 @@ import WhatWeDo from "@/components/home/WhatWeDo";
 
 const Home = () => {
   return (
-    <div className="bg-custom-bg min-h-screen bg-cover bg-center text-custom-text">
+    <div className="bg-gradient-to-tl from-gray-200 via-gray-500 to-gray-700 min-h-screen bg-cover bg-center text-white">
       <Navbar />
       <div className=" flex justify-center items-center min-h-screen mx-32">
         <div className=" lg:grid lg:grid-cols-2 items-center">
@@ -31,8 +31,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-custom-primary bg-opacity-20 h-4"></div>
-      {/* <WhatWeDo /> */}
+      <div className="bg-yellow-500 h-4"></div>
+      <WhatWeDo />
     </div>
   );
 };

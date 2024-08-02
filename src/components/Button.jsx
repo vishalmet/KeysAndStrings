@@ -19,7 +19,7 @@ const ButtonTemp = ({ title, to }) => {
     <div>
       <div className="flex justify-center pt-3 md:pt-6">
         <motion.button
-          className="bg-custom-button hover:bg-custom-hover border-2 hover:border-custom-button hover:shadow-xl font-medium text-black p-2 px-8"
+          className="bg-yellow-600 hover:bg-custom-hover border-2 hover:shadow-xl font-medium text-white p-2 px-8"
           whileTap={{ scale: 0.9 }}
           onClick={handleClick}
         >
